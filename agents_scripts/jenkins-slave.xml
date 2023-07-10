@@ -65,8 +65,8 @@ THE SOFTWARE.
   -->
   <extensions>
     <!-- This is a sample configuration for the RunawayProcessKiller extension. -->
-    <extension enabled="true" 
-               className="WinSW.Plugins.RunawayProcessKillerExtension"
+    <extension enabled="false" 
+               className="winsw.Plugins.RunawayProcessKiller.RunawayProcessKillerExtension"
                id="killOnStartup">
       <pidfile>%BASE%\jenkins_agent.pid</pidfile>
       <stopTimeout>5000</stopTimeout>
